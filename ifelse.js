@@ -21,13 +21,61 @@
 //     console.log("Try again!")
 // }
 
-let place ="Liverpool";
-let weather= "cloudy";
+// let place ="Liverpool";
+// let weather= "sunny";
 
-if(place == "Liverpool" && weather == "sunny"){
-    console.log("check again..")
-} else if (place == "Liverpool" && weather == "rainy"){
-    console.log("obviously")
-} else{
-    console.log ("what its not wet outside!?")
+// if(place == "Liverpool" || weather == "sunny"){
+//     console.log("check again..")
+// } else if (place == "Liverpool" || weather == "rainy"){
+//     console.log("obviously")
+// } else{
+//     console.log ("what its not wet outside!?")
+// }
+
+// let day ="saturday"
+
+// if (day =="saturday")
+
+
+// let dicey = Math.floor(Math.random()*6);
+ 
+// switch(dicey){
+//     case 1:
+//         console.log("Roll Again")
+//         break;
+//     case 2:
+//         console.log("Roll Again")
+//         break;
+//     case 3:
+//         console.log("Roll Again")
+//         break;
+//     case 4:
+//         console.log("You Finally Win!")
+// }
+
+//Activity 1:
+
+let age = Math.floor(Math.random()*18);
+let country ="UK"
+
+if (age < 17 && country == "UK") {
+    console.log("Move on mate your too young!")
+} else {
+    console.log("COME GRAB A PINT!!!")
 }
+
+//Activity 2:
+let toppings = "pepperoni"
+
+switch(toppings){
+       case "pepperoni":
+        console.log(`I dont mind having ${toppings} on my pizza.`)
+       case "chorizo": 
+        console.log(`I sometimes prefer ${toppings} on my pizza.`)
+       case "cheese":
+        console.log(`But i do believe that ${toppings} is must have on any pizza!`)
+        break;
+         default:
+            console.log(`${toppings} is an important ingredients for my pizza.`)
+        }
+        
