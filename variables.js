@@ -28,7 +28,7 @@
 
     console.log(`For my breakfast i had a ${breakFast}. After for my lunch i had ${lunch} and, later i will have ${dinner}.`)
 
-//skretch;
+//stretch;
     let tomorrowsBreakFast ="coffee an Bacon sandwich";
     let tomorrowLunch ="a sandwich";
     let tomorrowDinner ="pasta";
@@ -37,28 +37,26 @@
 
 //activity Three;
 
-    const Today = new Date();
+    const today = new Date();
     const myBirthDate = new Date('1991, 10, 24');
-    const oneDay = 24 * 60 * 60 * 1000; // hours * minutes * seconds * milliseconds
-    const daysAlive = Math.floor((Today - myBirthDate) / oneDay);
+    const oneDay = 24 * 60 * 60 * 1000;
+    const daysAlive = Math.floor((today - myBirthDate) / oneDay);
 
     console.log(`You have been alive for ${daysAlive} days.`);
 
 //Activity Four;
 
-    let space1 = "x";
-    let space2 = "o";
-    let space3 = "o";
-    let space4 = "o";
-    let space5 = "x";
+    let x = "x";
+    let o = "o";
+ 
     console.log("  |   |  ")
-    console.log(`${space1} | ${space2} |  `)
+    console.log(`${x} | ${o} |  `)
     console.log("  |   |  ")
     console.log("---------")
     console.log("  |   |  ")
-    console.log(`${space3} | ${space4} |  `)
+    console.log(`${x} | ${x} |  `)
     console.log("  |   |  ")
     console.log("---------")
     console.log("  |   |  ")
-    console.log(`${space5} |   |  `)
+    console.log(`${o} |   |  `)
     console.log("  |   |  ")
