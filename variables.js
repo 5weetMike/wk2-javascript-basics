@@ -58,5 +58,5 @@
     console.log("  |   |  ")
     console.log("---------")
     console.log("  |   |  ")
-    console.log(`${o} |   |  `)
+    console.log(`${o} | ${x} |  `)
     console.log("  |   |  ")
