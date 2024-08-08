@@ -65,17 +65,22 @@ if (age < 17 && country == "UK") {
 }
 
 //Activity 2:
+
 let toppings = "pepperoni"
+let toppings2 = "chorizo"
+let toppings3 = "cheese"
 
 switch(toppings){
        case "pepperoni":
         console.log(`I dont mind having ${toppings} on my pizza.`)
        case "chorizo": 
-        console.log(`I sometimes prefer ${toppings} on my pizza.`)
+        console.log(`I sometimes prefer ${toppings2} on my pizza.`)
        case "cheese":
-        console.log(`But i do believe that ${toppings} is must have on any pizza!`)
+        console.log(`But i do believe that ${toppings3} is must have on any pizza!`)
         break;
          default:
             console.log(`${toppings} is an important ingredients for my pizza.`)
         }
         
+//Activity 3:
+
