@@ -84,3 +84,21 @@ switch(toppings){
         
 //Activity 3:
 
+let passWord = "howdy!!!!!!";
+
+if(passWord.length >= 8) {
+        console.log("strong password!")
+    } else {
+        console.log("weak password!")
+    }
+
+//Activity 4:
+
+let num = 15
+if (num/3 ){
+    console.log("Fizz")
+}else if(num/5){
+    console.log("Buzz")
+}else(num/3&&5){
+    console.log("Fizz Buzz")
+}
