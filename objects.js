@@ -29,47 +29,60 @@
 
 //Activity 1
 
-// let person ={
-//     name: "Michael",
-//     Age: 32,
-//     favouriteFood: "steak",
-//     pets: [
-//         "Golden retriever",
-//         "Alaskan malamute"],
-//         sayHi(){
-//             // console.log(this.name)
-//         return `Hi my name is ${this.name} and my age is ${this.Age}.`
-//     }
-// }
+let person ={
+    name: "Michael",
+    Age: 32,
+    favouriteFood: "steak",
+    pets: [
+        "Golden retriever",
+        "Alaskan malamute"],
+        sayHi(){
+            // console.log(this.name)
+        return `Hi my name is ${this.name} and my age is ${this.Age}.`
+    }
+}
 
-// console.log(person.sayHi())
+console.log(person.sayHi())
 
 //Activity 2
 
-// let pet ={
-//     name: "poco",
-//     breed: "Gold Retiever",
-//     age: "9 months",
-//     colour: "blond",
-//     Text(){
-//     return `${this.name} is eating ${this.eat} / ${this.drink}`
-//  }
-// }
-// pet.eat = ("wet food")
-// pet.drink = ("puppy milk")
-// console.log(pet.Text())
+let pet ={
+    name: "poco",
+    breed: "Gold Retiever",
+    age: "9 months",
+    colour: "blond",
+    Text(){
+    return `${this.name} is eating ${this.eat} / ${this.drink}`
+ }
+}
+pet.eat = ("wet food")
+pet.drink = ("puppy milk")
+console.log(pet.Text())
 
 //Activity 3
 
 const coffeeShop ={
     Branch: "Hampsons",
-     food:["sandwich" === 4,
-        "apple" === 10],
-     drink:["coffee-£0.10", 
-        "tea-£20", 
-        "water-£20"]},
-order(){
-return`May I have a ${this.food[1]} and a ${this.drink[2]}`
-}
-}
-console.log(coffeeShop.order)
+     food:[
+        "sandwich", 4,
+        "apple", 1.50],
+     drink:[
+        "coffee", 1.50, 
+        "tea", 2, 
+        "water", 2.50],
+     totalCost:0,
+     drinkOrder(){
+     console.log(`May I have a ${this.drink[2]}`)
+    this.totalCost += this.drink[3]
+    },
+         foodOrder(){
+        console.log( `For my snack I'll have${this.food[0]}.`)
+        this.totalCost += this.food[1]
+    },
+     total(){this.drinkOrder() 
+        this.foodOrder()
+        console.log(this.totalCost)
+     }
+     }
+
+coffeeShop.total()
