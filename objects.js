@@ -62,8 +62,12 @@
 //Activity 3
 
 const coffeeShop ={
-    menu:{ food:["sandwich" === 4,"apple-£10"
-    ],drink:["coffee-£0.10", "tea-£20", "water-£20"]},
+    Branch: "Hampsons",
+     food:["sandwich" === 4,
+        "apple" === 10],
+     drink:["coffee-£0.10", 
+        "tea-£20", 
+        "water-£20"]},
 order(){
 return`May I have a ${this.food[1]} and a ${this.drink[2]}`
 }
