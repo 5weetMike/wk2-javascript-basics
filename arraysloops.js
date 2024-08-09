@@ -85,25 +85,38 @@ console.log (favFilms)
                       
 
 
-// //Activity two
+//Activity two
 
-//      for(let i =0 ; i < 5 ; i++){
-//           let randomNumber = Math.floor(Math.random() * 50) +1;
-//           console.log(randomNumber);
-//      }
+     for(let i =0 ; i < 5 ; i++){
+          let randomNumber = Math.floor(Math.random() * 50) +1;
+          console.log(randomNumber);
+     }
 
-// //Activity Three
-// let countDown=[];
-// for(let i = 9; i >= 0; i--){
-//      {
-//      countDown.push(i);
-//           }
-//        }
-//        console.log(`${countDown}`)
+//Activity Three
+let countDown=[];
+for(let i = 9; i >= 0; i--){
+     {
+     countDown.push(i);
+}
+}
+       console.log(`${countDown}`)
 
 //Activity Four
 
+let favMovies = [
+     "Predator",
+     "Alien",
+     "ghostbusters",
+     "Shawn of the dead"
+]
+if (favMovies[2] === ("ghostbusters")){
+ console.log("Yay its Ghostbusters.");
+} else { console.log("BOOOOO!!!")     
+}
+
+
 //Activity Five
+
 let numb=[]
 for(let i =0; i < 6; i++){
      let random = Math.floor(Math.random() * 30);     
@@ -115,3 +128,13 @@ for(let i =0; i < 6; i++){
        console.log(`${numb.length} numbers found: ${numb}`);
 
 //Activity six
+
+let hannah = ["Alan","Sandy","Shawn"]
+let bob = ["Sandy","Megan","Alice"]
+for (let index = 0; index < bob.length; index++) {
+     for (let j = 0; j < hannah.length; j++) 
+          if (bob[index]===hannah[j])
+               {
+          console.log(hannah[j])}
+     }
+

@@ -81,7 +81,7 @@ const coffeeShop ={
     },
      total(){this.drinkOrder() 
         this.foodOrder()
-        console.log(this.totalCost)
+        console.log(`£ ${this.totalCost}`)
      }
      }
 
