@@ -55,42 +55,42 @@
 
 //Activity 1:
 
-// let age = Math.floor(Math.random()*18);
-// let country ="UK"
+let age = Math.floor(Math.random()*18);
+let country ="UK"
 
-// if (age < 17 && country == "UK") {
-//     console.log("Move on mate your too young!")
-// } else {
-//     console.log("COME GRAB A PINT!!!")
-// }
+if (age < 17 && country == "UK") {
+    console.log("Move on mate your too young!")
+} else {
+    console.log("COME GRAB A PINT!!!")
+}
 
 //Activity 2:
 
-// let toppings = "pepperoni"
-// let toppings2 = "chorizo"
-// let toppings3 = "cheese"
+let toppings = "pepperoni"
+let toppings2 = "chorizo"
+let toppings3 = "cheese"
 
-// switch(toppings){
-//        case "pepperoni":
-//         console.log(`I dont mind having ${toppings} on my pizza.`)
-//        case "chorizo": 
-//         console.log(`I sometimes prefer ${toppings2} on my pizza.`)
-//        case "cheese":
-//         console.log(`But i do believe that ${toppings3} is must have on any pizza!`)
-//         break;
-//          default:
-//             console.log(`${toppings} is an important ingredients for my pizza.`)
-//         }
+switch(toppings){
+       case "pepperoni":
+        console.log(`I dont mind having ${toppings} on my pizza.`)
+       case "chorizo": 
+        console.log(`I sometimes prefer ${toppings2} on my pizza.`)
+       case "cheese":
+        console.log(`But i do believe that ${toppings3} is must have on any pizza!`)
+        break;
+         default:
+            console.log(`${toppings} is an important ingredients for my pizza.`)
+        }
         
 //Activity 3:
 
-// let passWord = "howdy!!!!!!";
+let passWord = "howdy!!!!!!";
 
-// if(passWord.length >= 8) {
-//         console.log("strong password!")
-//     } else {
-//         console.log("weak password!")
-//     }
+if(passWord.length >= 8) {
+        console.log("strong password!")
+    } else {
+        console.log("weak password!")
+    }
 
 //Activity 4:
 

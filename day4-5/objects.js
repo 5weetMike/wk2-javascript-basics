@@ -1,3 +1,4 @@
+//EXAMPLE
 // let person ={
 //     name: "Michael",
 //     Age: 32,
